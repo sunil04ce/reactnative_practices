@@ -40,6 +40,9 @@ const App = () => {
                 style={styles.tabIcon}
               />
             </View>
+            <Text style={{color: selectedTab === 0 ? 'purple' : '#bdbdbd'}}>
+              Home
+            </Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.bottomTab}
@@ -56,6 +59,9 @@ const App = () => {
                 style={styles.tabIcon}
               />
             </View>
+            <Text style={{color: selectedTab === 1 ? 'purple' : '#bdbdbd'}}>
+              Stores
+            </Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.bottomTab}
@@ -72,6 +78,9 @@ const App = () => {
                 style={styles.tabIcon}
               />
             </View>
+            <Text style={{color: selectedTab === 2 ? 'purple' : '#bdbdbd'}}>
+              Insurance
+            </Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.bottomTab}
@@ -88,6 +97,9 @@ const App = () => {
                 style={styles.tabIcon}
               />
             </View>
+            <Text style={{color: selectedTab === 3 ? 'purple' : '#bdbdbd'}}>
+              Wealth
+            </Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.bottomTab}
@@ -104,6 +116,9 @@ const App = () => {
                 style={styles.tabIcon}
               />
             </View>
+            <Text style={{color: selectedTab === 4 ? 'purple' : '#bdbdbd'}}>
+              History
+            </Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -121,7 +136,7 @@ const styles = StyleSheet.create({
   bottomNav: {
     width: '100%',
     height: verticalScale(70),
-    backgroundColor: '#f2f2f2',
+    backgroundColor: 'white',
     position: 'absolute',
     bottom: 0,
   },
@@ -131,6 +146,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     alignItems: 'center',
     flexDirection: 'row',
+    marginTop: moderateScale(5),
   },
   bottomTab: {
     width: '20%',
@@ -144,9 +160,9 @@ const styles = StyleSheet.create({
     tintColor: 'white',
   },
   tabIconBg: {
-    width: scale(34),
-    height: scale(34),
-    borderRadius: scale(17),
+    width: scale(30),
+    height: scale(30),
+    borderRadius: scale(15),
     justifyContent: 'center',
     alignItems: 'center',
   },
