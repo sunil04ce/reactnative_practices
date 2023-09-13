@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, StatusBar, Image } from 'react-native'
+import { View, Text, StyleSheet, StatusBar, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { moderateScale, moderateVerticalScale, scale, verticalScale } from 'react-native-size-matters'
 
@@ -44,7 +44,10 @@ const Home = () => {
                     </View>
                 </View>
                 <View style={styles.updateBtnView}>
-
+                    <Text style={styles.later}>LATER</Text>
+                    <TouchableOpacity style={styles.update}>
+                        <Text style={styles.updateText}>UPDATE</Text>
+                    </TouchableOpacity>
                 </View>
             </View>
         </View >
@@ -151,7 +154,29 @@ const styles = StyleSheet.create({
         alignSelf: 'flex-end',
         flexDirection: 'row',
         marginTop: moderateVerticalScale(20),
-        marginBottom: moderateVerticalScale(15)
+        marginBottom: moderateVerticalScale(15),
+        alignItems: 'center',
+        marginRight: moderateScale(20)
+    },
+    later: {
+        color: 'purple',
+        fontWeight: '600',
+        fontSize: moderateScale(16)
+    },
+    update: {
+        backgroundColor: 'purple',
+        paddingBottom: moderateScale(10),
+        paddingTop: moderateScale(10),
+        paddingLeft: moderateScale(20),
+        paddingRight: moderateScale(20),
+        borderRadius: moderateScale(20),
+        marginLeft: moderateScale(20),
+
+    },
+    updateText: {
+        color: 'white',
+        fontWeight: '600',
+        fontSize: moderateScale(16)
     }
 
 })
