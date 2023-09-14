@@ -50,6 +50,37 @@ const Home = () => {
                     </TouchableOpacity>
                 </View>
             </View>
+            <Image source={require('../images/phone_pay_banner.png')} style={styles.banner} />
+            <View style={styles.moneyTransferCard}>
+                <Text style={styles.heading}>Money Transfers</Text>
+                <View style={[styles.transferView, { paddingLeft: moderateScale(30) }]}>
+                    <TouchableOpacity style={[styles.transferTab]}>
+                        <View style={styles.transferCard}>
+                            <Image source={require('../images/user.png')} style={styles.icons} />
+                        </View>
+                        <Text style={styles.transferText}>{'To Mobile\nNumber'}</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.transferTab}>
+                        <View style={styles.transferCard}>
+                            <Image source={require('../images/bank2.png')} style={styles.icons} />
+                        </View>
+                        <Text style={styles.transferText}>{'To Bank/\nUPI ID'}</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.transferTab}>
+                        <View style={styles.transferCard}>
+                            <Image source={require('../images/reload.png')} style={styles.icons} />
+                        </View>
+                        <Text style={styles.transferText}>{'To Self\nAccount'}</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.transferTab}>
+                        <View style={styles.transferCard}>
+                            <Image source={require('../images/bank.png')} style={styles.icons} />
+                        </View>
+                        <Text style={styles.transferText}>{'Check\nBalance'}</Text>
+                    </TouchableOpacity>
+                </View>
+
+            </View>
         </View >
     )
 }
@@ -171,12 +202,54 @@ const styles = StyleSheet.create({
         paddingRight: moderateScale(20),
         borderRadius: moderateScale(20),
         marginLeft: moderateScale(20),
-
     },
     updateText: {
         color: 'white',
         fontWeight: '600',
         fontSize: moderateScale(16)
+    },
+    banner: {
+        width: '94%',
+        height: verticalScale(100),
+        alignSelf: 'center',
+        marginTop: moderateVerticalScale(20),
+        borderRadius: moderateScale(10)
+    },
+    moneyTransferCard: {
+        width: '94%',
+        height: verticalScale(150),
+        backgroundColor: 'white',
+        alignSelf: 'center',
+        marginTop: moderateVerticalScale(10),
+        borderRadius: moderateScale(10)
+    },
+    heading: {
+        fontSize: moderateScale(16),
+        fontWeight: '600',
+        marginLeft: moderateScale(15),
+        marginTop: moderateVerticalScale(15)
+    },
+    transferView: {
+        width: '100%',
+        flexDirection: 'row',
+        justifyContent: 'space-evenly',
+        alignItems: 'center',
+        marginTop: moderateScale(20)
+    },
+    transferTab: {
+        width: '25%',
+        justifyContent: 'center',
+        alignContent: 'center',
+    },
+    transferCard: {
+        width: scale(36),
+        height: scale(36),
+        borderRadius: moderateScale(10),
+        backgroundColor: 'purple',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    transferText: {
+        marginTop: moderateScale(5)
     }
-
 })
