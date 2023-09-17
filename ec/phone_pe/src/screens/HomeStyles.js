@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     transferTab: {
         width: '25%',
         justifyContent: 'center',
-        alignContent: 'center',
+        alignItems: 'center',
     },
     transferCard: {
         width: scale(36),
@@ -164,16 +164,17 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     transferText: {
-        marginTop: moderateScale(5)
+        marginTop: moderateScale(5),
+        textAlign: 'center'
     },
     otherOptions: {
         flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between',
         width: '94%',
-        marginTop: moderateScale(10),
-        alignSelf: 'center',
+        marginTop: moderateScale(15),
         marginBottom: moderateScale(5),
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        alignSelf: 'center',
     },
     otherOptionTab: {
         width: '31%',
@@ -187,6 +188,14 @@ const styles = StyleSheet.create({
         color: 'white',
         fontWeight: '600',
         marginTop: moderateScale(10),
+    },
+    rechargeAndBills: {
+        backgroundColor: 'white',
+        borderRadius: moderateScale(5),
+        marginTop: moderateVerticalScale(10),
+        alignSelf: 'center',
+        height: verticalScale(270),
+        width: '94%'
     }
 });
 

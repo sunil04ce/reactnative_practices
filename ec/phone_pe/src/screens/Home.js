@@ -37,7 +37,7 @@ const Home = () => {
 
                 </View>
             </View>
-            <ScrollView style={{ marginBottom: moderateScale(70) }}>
+            <ScrollView style={{ marginBottom: moderateScale(75) }}>
                 <View style={styles.updateCard}>
                     <View style={styles.updateTopView}>
                         <Image source={require('../images/logo.png')} style={styles.logo} />
@@ -56,7 +56,7 @@ const Home = () => {
                 <Image source={require('../images/phone_pay_banner.png')} style={styles.banner} />
                 <View style={styles.moneyTransferCard}>
                     <Text style={styles.heading}>Money Transfers</Text>
-                    <View style={[styles.transferView, { paddingLeft: moderateScale(30) }]}>
+                    <View style={styles.transferView}>
                         <TouchableOpacity style={[styles.transferTab]}>
                             <View style={styles.transferCard}>
                                 <Image source={require('../images/user.png')} style={styles.icons} />
@@ -90,12 +90,67 @@ const Home = () => {
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.otherOptionTab}>
                         <Image source={require('../images/gift.png')} style={styles.icons} />
-                        <Text style={styles.otherOptionText}>Gift</Text>
+                        <Text style={styles.otherOptionText}>Rewards</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.otherOptionTab}>
                         <Image source={require('../images/speaker.png')} style={styles.icons} />
                         <Text style={styles.otherOptionText}>{'Refer & Get 100'}</Text>
                     </TouchableOpacity>
+                </View>
+                <View style={styles.rechargeAndBills}>
+                    <Text style={styles.heading}>Recharge & Pay Bills</Text>
+                    <View style={styles.transferView}>
+                        <TouchableOpacity style={styles.transferTab}>
+                            <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
+                                <Image source={require('../images/mobile.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                            </View>
+                            <Text style={styles.transferText}>{'Mobile\nRecharge'}</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={styles.transferTab}>
+                            <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
+                                <Image source={require('../images/satellite-dish.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                            </View>
+                            <Text style={styles.transferText}>{'DTH'}</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={styles.transferTab}>
+                            <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
+                                <Image source={require('../images/bulb.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                            </View>
+                            <Text style={styles.transferText}>{'Electricity'}</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={styles.transferTab}>
+                            <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
+                                <Image source={require('../images/credit-card.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                            </View>
+                            <Text style={styles.transferText}>{'Credit Card\nPayment'}</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={styles.transferView}>
+                        <TouchableOpacity style={styles.transferTab}>
+                            <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
+                                <Image source={require('../images/renewable.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                            </View>
+                            <Text style={styles.transferText}>{'Rent\nPayment'}</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={styles.transferTab}>
+                            <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
+                                <Image source={require('../images/personal.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                            </View>
+                            <Text style={styles.transferText}>{'Loand\nRepayment'}</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={styles.transferTab}>
+                            <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
+                                <Image source={require('../images/gas-tank.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                            </View>
+                            <Text style={styles.transferText}>{'Electricity'}</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity style={styles.transferTab}>
+                            <View style={[styles.transferCard]}>
+                                <Image source={require('../images/next.png')} style={[styles.icons]} />
+                            </View>
+                            <Text style={styles.transferText}>{'See All'}</Text>
+                        </TouchableOpacity>
+                    </View>
                 </View>
             </ScrollView>
         </View >
