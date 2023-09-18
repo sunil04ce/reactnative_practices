@@ -1,42 +1,16 @@
 import { View, Text, StyleSheet, StatusBar, Image, TouchableOpacity, ScrollView } from 'react-native'
 import React from 'react'
 import { styles } from './HomeStyles';
+import { commonAppStyles } from './CommonAppStyles';
 import { moderateScale, moderateVerticalScale, scale, verticalScale } from 'react-native-size-matters'
+import CommonHeader from './CommonHeader';
 
 const Home = () => {
     return (
 
-        <View style={styles.container}>
+        <View style={commonAppStyles.container}>
             <StatusBar barStyle={'light-content'} />
-            <View style={styles.header}>
-                <View style={styles.header2}>
-                    <View style={styles.headerLeftView}>
-                        <View>
-                            <Image source={require('../images/man.png')} style={styles.user}></Image>
-                        </View>
-                        <View>
-                            <Image source={require('../images/flag.png')} style={styles.flag}></Image>
-                        </View>
-                        <View style={{ marginLeft: moderateScale(10) }}>
-                            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                                <Text style={styles.home}>Home</Text>
-                                <Image source={require('../images/down.png')} style={styles.dropdown}></Image>
-                            </View>
-                            <Text style={styles.address}>201, Antiliya, Mumbai</Text>
-                        </View>
-                    </View>
-
-                    <View style={styles.headerRightView}>
-                        <Image source={require('../images/qr-code.png')}
-                            style={styles.icons} />
-                        <Image source={require('../images/bell.png')}
-                            style={[styles.icons, { marginLeft: moderateScale(15), marginRight: moderateScale(15) }]} />
-                        <Image source={require('../images/help.png')}
-                            style={styles.icons} />
-                    </View>
-
-                </View>
-            </View>
+            <CommonHeader />
             <ScrollView style={{ marginBottom: moderateScale(75) }}>
                 <View style={styles.updateCard}>
                     <View style={styles.updateTopView}>
@@ -59,25 +33,25 @@ const Home = () => {
                     <View style={styles.transferView}>
                         <TouchableOpacity style={[styles.transferTab]}>
                             <View style={styles.transferCard}>
-                                <Image source={require('../images/user.png')} style={styles.icons} />
+                                <Image source={require('../images/user.png')} style={commonAppStyles.icons} />
                             </View>
                             <Text style={styles.transferText}>{'To Mobile\nNumber'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={styles.transferCard}>
-                                <Image source={require('../images/bank2.png')} style={styles.icons} />
+                                <Image source={require('../images/bank2.png')} style={commonAppStyles.icons} />
                             </View>
                             <Text style={styles.transferText}>{'To Bank/\nUPI ID'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={styles.transferCard}>
-                                <Image source={require('../images/reload.png')} style={styles.icons} />
+                                <Image source={require('../images/reload.png')} style={commonAppStyles.icons} />
                             </View>
                             <Text style={styles.transferText}>{'To Self\nAccount'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={styles.transferCard}>
-                                <Image source={require('../images/bank.png')} style={styles.icons} />
+                                <Image source={require('../images/bank.png')} style={commonAppStyles.icons} />
                             </View>
                             <Text style={styles.transferText}>{'Check\nBalance'}</Text>
                         </TouchableOpacity>
@@ -85,15 +59,15 @@ const Home = () => {
                 </View>
                 <View style={styles.otherOptions}>
                     <TouchableOpacity style={styles.otherOptionTab}>
-                        <Image source={require('../images/wallet.png')} style={styles.icons} />
+                        <Image source={require('../images/wallet.png')} style={commonAppStyles.icons} />
                         <Text style={styles.otherOptionText}>PhonePe Wallet</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.otherOptionTab}>
-                        <Image source={require('../images/gift.png')} style={styles.icons} />
+                        <Image source={require('../images/gift.png')} style={commonAppStyles.icons} />
                         <Text style={styles.otherOptionText}>Rewards</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.otherOptionTab}>
-                        <Image source={require('../images/speaker.png')} style={styles.icons} />
+                        <Image source={require('../images/speaker.png')} style={commonAppStyles.icons} />
                         <Text style={styles.otherOptionText}>{'Refer & Get 100'}</Text>
                     </TouchableOpacity>
                 </View>
@@ -102,25 +76,25 @@ const Home = () => {
                     <View style={styles.transferView}>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
-                                <Image source={require('../images/mobile.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                                <Image source={require('../images/mobile.png')} style={[commonAppStyles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
                             </View>
                             <Text style={styles.transferText}>{'Mobile\nRecharge'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
-                                <Image source={require('../images/satellite-dish.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                                <Image source={require('../images/satellite-dish.png')} style={[commonAppStyles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
                             </View>
                             <Text style={styles.transferText}>{'DTH'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
-                                <Image source={require('../images/bulb.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                                <Image source={require('../images/bulb.png')} style={[commonAppStyles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
                             </View>
                             <Text style={styles.transferText}>{'Electricity'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
-                                <Image source={require('../images/credit-card.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                                <Image source={require('../images/credit-card.png')} style={[commonAppStyles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
                             </View>
                             <Text style={styles.transferText}>{'Credit Card\nPayment'}</Text>
                         </TouchableOpacity>
@@ -128,25 +102,25 @@ const Home = () => {
                     <View style={styles.transferView}>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
-                                <Image source={require('../images/renewable.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                                <Image source={require('../images/renewable.png')} style={[commonAppStyles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
                             </View>
                             <Text style={styles.transferText}>{'Rent\nPayment'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
-                                <Image source={require('../images/personal.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                                <Image source={require('../images/personal.png')} style={[commonAppStyles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
                             </View>
                             <Text style={styles.transferText}>{'Loand\nRepayment'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={[styles.transferCard, { backgroundColor: 'white' }]}>
-                                <Image source={require('../images/gas-tank.png')} style={[styles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
+                                <Image source={require('../images/gas-tank.png')} style={[commonAppStyles.icons, { tintColor: 'purple', width: scale(30), height: scale(30) }]} />
                             </View>
                             <Text style={styles.transferText}>{'Electricity'}</Text>
                         </TouchableOpacity>
                         <TouchableOpacity style={styles.transferTab}>
                             <View style={[styles.transferCard]}>
-                                <Image source={require('../images/next.png')} style={[styles.icons]} />
+                                <Image source={require('../images/next.png')} style={[commonAppStyles.icons]} />
                             </View>
                             <Text style={styles.transferText}>{'See All'}</Text>
                         </TouchableOpacity>
