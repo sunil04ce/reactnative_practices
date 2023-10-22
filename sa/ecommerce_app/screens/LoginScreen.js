@@ -5,8 +5,11 @@ import {
   SafeAreaView,
   Image,
   KeyboardAvoidingView,
+  TextInput,
 } from "react-native";
 import React from "react";
+import { MaterialIcons } from "@expo/vector-icons";
+import { AntDesign } from "@expo/vector-icons";
 
 const LoginScreen = () => {
   return (
@@ -37,6 +40,54 @@ const LoginScreen = () => {
           >
             Login in to your Account
           </Text>
+        </View>
+        <View style={{ marginTop: 70 }}>
+          <View
+            style={{
+              flexDirection: "row",
+              alignItems: "center",
+              gap: 5,
+              backgroundColor: "#D0D0D0",
+              paddingVertical: 5,
+              borderRadius: 5,
+              marginTop: 30,
+            }}
+          >
+            <MaterialIcons
+              style={{ marginLeft: 8 }}
+              name="email"
+              size={24}
+              color="gray"
+            />
+            <TextInput
+              style={{ color: "gray", marginVertical: 10, width: 300 }}
+              placeholder="enter your email"
+            />
+          </View>
+          <View style={{ marginTop: 10 }}>
+            <View
+              style={{
+                flexDirection: "row",
+                alignItems: "center",
+                gap: 5,
+                backgroundColor: "#D0D0D0",
+                paddingVertical: 5,
+                borderRadius: 5,
+                marginTop: 30,
+              }}
+            >
+              <AntDesign
+                style={{ marginLeft: 8 }}
+                name="lock1"
+                size={24}
+                color="gray"
+              />
+              <TextInput
+                style={{ color: "gray", marginVertical: 10, width: 300 }}
+                placeholder="enter your password"
+              />
+            </View>
+          </View>
         </View>
       </KeyboardAvoidingView>
     </SafeAreaView>
