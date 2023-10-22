@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 const jwt = require('jsonwebtoken');
 
-mongoose.connect("mongodb+srv://sunil04ce:<password>@cluster0.llrokwm.mongodb.net/", {
+mongoose.connect("mongodb+srv://sunil04ce:sa_ecom_app@cluster0.llrokwm.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {

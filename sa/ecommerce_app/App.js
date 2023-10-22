@@ -1,14 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
+import StackNavigator from './navigation/StackNavigator';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app! 2</Text>
-      <TextInput style={{ height: 30 }}></TextInput>
-      <Button>Text</Button>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <StackNavigator />
+    </>
   );
 }
 
