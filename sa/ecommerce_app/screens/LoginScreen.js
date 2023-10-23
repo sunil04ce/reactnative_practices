@@ -6,12 +6,18 @@ import {
   Image,
   KeyboardAvoidingView,
   TextInput,
+  Pressable,
 } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { MaterialIcons } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
+import { useNavigation } from "@react-navigation/native";
 
 const LoginScreen = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigation = useNavigation();
+
   return (
     <SafeAreaView
       style={{
@@ -41,7 +47,7 @@ const LoginScreen = () => {
             Login in to your Account
           </Text>
         </View>
-        <View style={{ marginTop: 70 }}>
+        <View style={{ marginTop: 50 }}>
           <View
             style={{
               flexDirection: "row",
@@ -60,7 +66,14 @@ const LoginScreen = () => {
               color="gray"
             />
             <TextInput
-              style={{ color: "gray", marginVertical: 10, width: 300 }}
+              value={email}
+              onChange={(text) => setEmail(text)}
+              style={{
+                color: "gray",
+                marginVertical: 10,
+                width: 300,
+                fontSize: email ? 16 : 20,
+              }}
               placeholder="enter your email"
             />
           </View>
@@ -83,11 +96,62 @@ const LoginScreen = () => {
                 color="gray"
               />
               <TextInput
-                style={{ color: "gray", marginVertical: 10, width: 300 }}
+                value={password}
+                onChange={(text) => setPassword(text)}
+                style={{
+                  color: "gray",
+                  marginVertical: 10,
+                  width: 300,
+                  fontSize: password ? 16 : 20,
+                }}
+                secureTextEntry={true}
                 placeholder="enter your password"
               />
             </View>
           </View>
+          <View
+            style={{
+              marginTop: 12,
+              flexDirection: "row",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
+            <Text>Keep me logged in</Text>
+            <Text style={{ fontWeight: "500", color: "#007FFF" }}>
+              Forgot Password
+            </Text>
+          </View>
+          <View style={{ marginTop: 80 }} />
+          <Pressable
+            style={{
+              width: 200,
+              marginLeft: "auto",
+              marginRight: "auto",
+              backgroundColor: "#FEBE10",
+              borderRadius: 6,
+              padding: 15,
+            }}
+          >
+            <Text
+              style={{
+                textAlign: "center",
+                color: "white",
+                fontSize: 16,
+                fontWeight: "bold",
+              }}
+            >
+              Login
+            </Text>
+          </Pressable>
+          <Pressable
+            style={{ marginTop: 20 }}
+            onPress={() => navigation.navigate("Register")}
+          >
+            <Text style={{ textAlign: "center", color: "gray", fontSize: 16 }}>
+              Don't have an account? Sign Up
+            </Text>
+          </Pressable>
         </View>
       </KeyboardAvoidingView>
     </SafeAreaView>
