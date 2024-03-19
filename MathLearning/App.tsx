@@ -1,11 +1,13 @@
 import React from 'react';
-import {Text, View} from 'react-native';
-import tw from 'twrnc';
+import {View} from 'react-native';
+import HeaderBar from './src/components/HeaderBar';
+import Calculation from './src/screens/Calculation';
 
 function App(): React.JSX.Element {
   return (
-    <View style={tw`flex-1 items-center bg-white text-white`}>
-      <Text style={tw`text-black`}>Welcome To Math Learning!</Text>
+    <View>
+      <HeaderBar />
+      <Calculation />
     </View>
   );
 }
