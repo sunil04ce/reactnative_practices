@@ -30,12 +30,4 @@ export const AppColors = {
   box_border_red_100_FFCDD2: '#FFCDD2',
   box_border_green_100_C8E6C9: '#C8E6C9',
   box_border_0084F00D: '#0084F00D',
-  line_C2D3F580: '#C2D3F580',
-  line_B9C0D0: '#B9C0D0',
-  dropdown_border_E8E8E8: '#E8E8E8',
-  badge_bg_F3F3F6: '#F3F3F6',
-  box_orange_F99602: '#F99602',
-  daybook_bg_D6E5FF: '#D6E5FF',
-  daybook_border_C9C9C9: '#C9C9C9',
-  daybook_textcolor: '#333333B2',
 };
