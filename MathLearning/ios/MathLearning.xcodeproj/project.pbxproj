@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* MathLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MathLearningTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-MathLearning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MathLearning.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-MathLearning-MathLearningTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MathLearning-MathLearningTests.a */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A3DD26E60F834CB89B5DD5AD /* RedHatDisplay-Black-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABB2026F9D9E48F9A42CBCAA /* RedHatDisplay-Black-900.ttf */; };
-		F835DB01D79A4908B436F5BD /* RedHatDisplay-Bold-700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 403F8D5EEFD0475AB56FEEC1 /* RedHatDisplay-Bold-700.ttf */; };
-		58D8D509F8C645299D496EB7 /* RedHatDisplay-ExtraBold-800.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28646FC59B6848F994D723E0 /* RedHatDisplay-ExtraBold-800.ttf */; };
-		AE67EA7F5F9549A287B7BA37 /* RedHatDisplay-Medium-500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63223C23EAFF40E8864D5727 /* RedHatDisplay-Medium-500.ttf */; };
-		BEEEE479EAC048589F1451A6 /* RedHatDisplay-SemiBold-600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F42EE0E13B8F477D81696F5C /* RedHatDisplay-SemiBold-600.ttf */; };
+		67237614AADB42ADB7580DB1 /* RedHatDisplay-Black-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8526C9D188B4B909BAE18A4 /* RedHatDisplay-Black-900.ttf */; };
+		418E0256A2A14559AA49A19B /* RedHatDisplay-Bold-700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BFD4B62CD8F43BAAC7956FC /* RedHatDisplay-Bold-700.ttf */; };
+		2A3E571B24CC437999C18FED /* RedHatDisplay-ExtraBold-800.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 990AE0F7D4DC4A5A88015594 /* RedHatDisplay-ExtraBold-800.ttf */; };
+		8CF99837F787423EBA72EE7E /* RedHatDisplay-Medium-500.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 440388D0ED82439CAA9834AE /* RedHatDisplay-Medium-500.ttf */; };
+		E2B62FF0C26C47F7A1C6B8E4 /* RedHatDisplay-SemiBold-600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABAA7D227C1D405597FF3E07 /* RedHatDisplay-SemiBold-600.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,39 +29,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* MathLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MathLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathLearningTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MathLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MathLearning/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MathLearning/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MathLearning/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MathLearning/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MathLearning/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MathLearning-MathLearningTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MathLearning-MathLearningTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = MathLearning/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-MathLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathLearning.debug.xcconfig"; path = "Target Support Files/Pods-MathLearning/Pods-MathLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MathLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathLearning.release.xcconfig"; path = "Target Support Files/Pods-MathLearning/Pods-MathLearning.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-MathLearning-MathLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathLearning-MathLearningTests.debug.xcconfig"; path = "Target Support Files/Pods-MathLearning-MathLearningTests/Pods-MathLearning-MathLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MathLearning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MathLearning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MathLearning/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MathLearning/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-MathLearning-MathLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathLearning-MathLearningTests.release.xcconfig"; path = "Target Support Files/Pods-MathLearning-MathLearningTests/Pods-MathLearning-MathLearningTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ABB2026F9D9E48F9A42CBCAA /* RedHatDisplay-Black-900.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-Black-900.ttf"; path = "../src/assets/fonts/RedHatDisplay-Black-900.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		403F8D5EEFD0475AB56FEEC1 /* RedHatDisplay-Bold-700.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-Bold-700.ttf"; path = "../src/assets/fonts/RedHatDisplay-Bold-700.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		28646FC59B6848F994D723E0 /* RedHatDisplay-ExtraBold-800.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-ExtraBold-800.ttf"; path = "../src/assets/fonts/RedHatDisplay-ExtraBold-800.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		63223C23EAFF40E8864D5727 /* RedHatDisplay-Medium-500.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-Medium-500.ttf"; path = "../src/assets/fonts/RedHatDisplay-Medium-500.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F42EE0E13B8F477D81696F5C /* RedHatDisplay-SemiBold-600.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-SemiBold-600.ttf"; path = "../src/assets/fonts/RedHatDisplay-SemiBold-600.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8526C9D188B4B909BAE18A4 /* RedHatDisplay-Black-900.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-Black-900.ttf"; path = "../src/assets/fonts/RedHatDisplay-Black-900.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3BFD4B62CD8F43BAAC7956FC /* RedHatDisplay-Bold-700.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-Bold-700.ttf"; path = "../src/assets/fonts/RedHatDisplay-Bold-700.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		990AE0F7D4DC4A5A88015594 /* RedHatDisplay-ExtraBold-800.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-ExtraBold-800.ttf"; path = "../src/assets/fonts/RedHatDisplay-ExtraBold-800.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		440388D0ED82439CAA9834AE /* RedHatDisplay-Medium-500.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-Medium-500.ttf"; path = "../src/assets/fonts/RedHatDisplay-Medium-500.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ABAA7D227C1D405597FF3E07 /* RedHatDisplay-SemiBold-600.ttf */ = {isa = PBXFileReference; name = "RedHatDisplay-SemiBold-600.ttf"; path = "../src/assets/fonts/RedHatDisplay-SemiBold-600.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00E356EB1AD99517003FC87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7699B88040F8A987B510C191 /* libPods-MathLearning-MathLearningTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,15 +59,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* MathLearningTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* MathLearningTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = MathLearningTests;
-			sourceTree = "<group>";
-		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,12 +70,11 @@
 		13B07FAE1A68108700A75B9A /* MathLearning */ = {
 			isa = PBXGroup;
 			children = (
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 			);
 			name = MathLearning;
 			sourceTree = "<group>";
@@ -111,7 +84,6 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-MathLearning.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-MathLearning-MathLearningTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,11 +100,10 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* MathLearning */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MathLearningTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				8518F03C7F194CDC8162FBD0 /* Resources */,
+				7387D7DCA1504ADEA2C0BB8F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -143,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* MathLearning.app */,
-				00E356EE1AD99517003FC87E /* MathLearningTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,20 +123,18 @@
 			children = (
 				3B4392A12AC88292D35C810B /* Pods-MathLearning.debug.xcconfig */,
 				5709B34CF0A7D63546082F79 /* Pods-MathLearning.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-MathLearning-MathLearningTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-MathLearning-MathLearningTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		8518F03C7F194CDC8162FBD0 /* Resources */ = {
+		7387D7DCA1504ADEA2C0BB8F /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				ABB2026F9D9E48F9A42CBCAA /* RedHatDisplay-Black-900.ttf */,
-				403F8D5EEFD0475AB56FEEC1 /* RedHatDisplay-Bold-700.ttf */,
-				28646FC59B6848F994D723E0 /* RedHatDisplay-ExtraBold-800.ttf */,
-				63223C23EAFF40E8864D5727 /* RedHatDisplay-Medium-500.ttf */,
-				F42EE0E13B8F477D81696F5C /* RedHatDisplay-SemiBold-600.ttf */,
+				A8526C9D188B4B909BAE18A4 /* RedHatDisplay-Black-900.ttf */,
+				3BFD4B62CD8F43BAAC7956FC /* RedHatDisplay-Bold-700.ttf */,
+				990AE0F7D4DC4A5A88015594 /* RedHatDisplay-ExtraBold-800.ttf */,
+				440388D0ED82439CAA9834AE /* RedHatDisplay-Medium-500.ttf */,
+				ABAA7D227C1D405597FF3E07 /* RedHatDisplay-SemiBold-600.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -175,27 +143,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* MathLearningTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MathLearningTests" */;
-			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
-				00E356EA1AD99517003FC87E /* Sources */,
-				00E356EB1AD99517003FC87E /* Frameworks */,
-				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
-			);
-			name = MathLearningTests;
-			productName = MathLearningTests;
-			productReference = 00E356EE1AD99517003FC87E /* MathLearningTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		13B07F861A680F5B00A75B9A /* MathLearning */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MathLearning" */;
@@ -225,10 +172,6 @@
 			attributes = {
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					00E356ED1AD99517003FC87E = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
 					};
@@ -248,7 +191,6 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* MathLearning */,
-				00E356ED1AD99517003FC87E /* MathLearningTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,11 +209,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				A3DD26E60F834CB89B5DD5AD /* RedHatDisplay-Black-900.ttf in Resources */,
-				F835DB01D79A4908B436F5BD /* RedHatDisplay-Bold-700.ttf in Resources */,
-				58D8D509F8C645299D496EB7 /* RedHatDisplay-ExtraBold-800.ttf in Resources */,
-				AE67EA7F5F9549A287B7BA37 /* RedHatDisplay-Medium-500.ttf in Resources */,
-				BEEEE479EAC048589F1451A6 /* RedHatDisplay-SemiBold-600.ttf in Resources */,
+				67237614AADB42ADB7580DB1 /* RedHatDisplay-Black-900.ttf in Resources */,
+				418E0256A2A14559AA49A19B /* RedHatDisplay-Bold-700.ttf in Resources */,
+				2A3E571B24CC437999C18FED /* RedHatDisplay-ExtraBold-800.ttf in Resources */,
+				8CF99837F787423EBA72EE7E /* RedHatDisplay-Medium-500.ttf in Resources */,
+				E2B62FF0C26C47F7A1C6B8E4 /* RedHatDisplay-SemiBold-600.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
 		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -309,28 +251,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathLearning/Pods-MathLearning-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MathLearning-MathLearningTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -355,23 +275,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MathLearning-MathLearningTests/Pods-MathLearning-MathLearningTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MathLearning-MathLearningTests/Pods-MathLearning-MathLearningTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathLearning-MathLearningTests/Pods-MathLearning-MathLearningTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,40 +292,14 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathLearning/Pods-MathLearning-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MathLearning-MathLearningTests/Pods-MathLearning-MathLearningTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MathLearning-MathLearningTests/Pods-MathLearning-MathLearningTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathLearning-MathLearningTests/Pods-MathLearning-MathLearningTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00E356EA1AD99517003FC87E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00E356F31AD99517003FC87E /* MathLearningTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,57 +314,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-MathLearning-MathLearningTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MathLearningTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathLearning.app/MathLearning";
-			};
-			name = Debug;
-		};
-		00E356F71AD99517003FC87E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-MathLearning-MathLearningTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = MathLearningTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathLearning.app/MathLearning";
-			};
-			name = Release;
-		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-MathLearning.debug.xcconfig */;
@@ -497,6 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MathLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,6 +350,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = MathLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -607,6 +435,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
 				SDKROOT = iphoneos;
 			};
@@ -654,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -671,6 +500,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -680,15 +510,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MathLearningTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MathLearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

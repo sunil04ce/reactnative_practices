@@ -1,14 +1,23 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */
+
 import React from 'react';
-import {View} from 'react-native';
 import HeaderBar from './src/components/HeaderBar';
 import Calculation from './src/screens/Calculation';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
-function App(): React.JSX.Element {
+function App() {
   return (
-    <View>
-      <HeaderBar />
-      <Calculation />
-    </View>
+    <SafeAreaProvider>
+      <SafeAreaView style={{ flex: 1, backgroundColor: '#0084F0' }}>
+        <HeaderBar />
+        <Calculation />
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 

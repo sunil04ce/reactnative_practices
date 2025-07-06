@@ -30,4 +30,5 @@ export const AppColors = {
   box_border_red_100_FFCDD2: '#FFCDD2',
   box_border_green_100_C8E6C9: '#C8E6C9',
   box_border_0084F00D: '#0084F00D',
+  line_C2D3F580: '#C2D3F580',
 };
